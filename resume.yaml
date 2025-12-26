@@ -13,9 +13,7 @@ education:
     location: Cambridge, MA
     degree: M.S.
     field: Applied Mathematics
-    secondaryField: Aerospace Engineering/Machine Learning
     graduation: May 2025
-    gpa: 3.875
     showGpa: false
 
   - institution: Harvard University
@@ -24,40 +22,30 @@ education:
     field: Applied Mathematics
     secondaryField: Secondary in Astrophysics
     graduation: May 2025
-    gpa: 3.945
     showGpa: false
     honors:
-      - Magna Cum Laude with Highest Honors in Applied Mathematics
-    coursework:
-      - Machine Learning
-      - Optimal Control Theory
-      - Space Systems Engineering
-      - Signal Processing
-      - Fourier Analysis
-      - Differential Equations
-      - Engineering Data Analytics
+      - Magna Cum Laude with Highest Honors
 
 experience:
   - company: Urban Sky
     location: Denver, CO
     positions:
       - title: Chief of Staff
-        start: May 2025
+        start: June 2025
         current: true
         highlights:
-          - Ensure timely completion of all company goals and objectives
-          - Continue leadership over balloon navigation research and development
+          - Ensure timely & successful completion of all company goals and objectives
 
       - title: Simulations Engineer
         start: November 2022
-        end: May 2025
+        end: June 2025
         highlights:
           - Conducted scientific studies into trends in wind behavior, historical shifts, and forecasting accuracies
           - Managed small team in development of several multimillion-dollar AFWERX/SBIR government contracts
-          - Developed high fidelity model of balloon system operating in a chaotic and dynamic 3D space
+          - Developed high fidelity model of balloon system operating in a chaotic and dynamic 4D space
           - Leveraged Optimal Control Theory to develop AutoPilot system to intelligently navigate transitions of complex nonlinear dynamic systems in real-time environments
-          - Started Machine Learning Sector for controlling balloons using classical ML and reinforcement learning
-          - Leading business development opportunities for humanitarian and sustainable development
+          - Stood up in-house machine learning capacity, initially targeted for controlling balloons using classical ML and reinforcement learning
+          - Business development research for opportunities & partnerships for humanitarian and sustainable development
 
       - title: Simulations and Modeling Intern
         start: May 2022
@@ -74,36 +62,39 @@ experience:
         start: June 2023
         end: August 2023
         highlights:
-          - Simulation and Modeling team tasked with enabling space agents to make intelligent decisions in complex environments
-          - Researched Cis-Lunar and N-body orbits and transfers
+          - Simulation and Modeling to enable space agents to make intelligent decisions in complex environments
           - Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions
           - Implemented optimization algorithms to solve complex orbital transfers with up to 60% reductions in fuel costs
           - Leveraged Machine Learning to eliminate costly planning procedures, achieving 98% faster flight planning
+          - Presented "Machine Learning for Space Operations" at Maxar Applied ML Summit to over 200 ML experts
 
 research:
-  - title: Stratospheric Station Keeping Study
-    institution: Harvard University
-    advisor: Professor Marianna Linz
+  - title: Associate Scientist, Linz Group
+    institution: Harvard School of Engineering & Applied Sciences
     location: Cambridge, MA
-    start: January 2023
+    start: June 2025
     current: true
     highlights:
+      - Ongoing partnership to further research & partnerships between Urban Sky and Research bodies
+
+  - title: Undergraduate Researcher, Linz Group
+    institution: Harvard School of Engineering & Applied Sciences
+    location: Cambridge, MA
+    start: January 2023
+    end: May 2025
+    highlights:
       - Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations
-      - Created algorithm to determine altitude adjustment decisions to keep balloons over a target region
       - Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation
       - Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia
 
-  - title: Incorporating Imperfect Information via Attention for Learning
-    institution: Harvard University
-    advisor: Professor Demba Ba
+  - title: Undergraduate Researcher, Ba Group
+    institution: Harvard School of Engineering & Applied Sciences
     location: Cambridge, MA
     start: May 2024
-    current: true
+    end: September 2025
     highlights:
-      - Devised framework to differentiate ground truth from imperfect information in machine learning
+      - Devised framework to differentiate ground truth from imperfect information in machine learning via attention mechanisms
       - Applied framework to balloon navigation to develop state-of-the-art controller
-      - Implementing model for use on real high-altitude balloons
-      - Seeking provisional patent
 
 publications:
   - title: "Seasonal and geographic viability of high altitude balloon navigation"
@@ -116,20 +107,25 @@ publications:
     doi: "10.1038/s41598-024-71445-9"
     status: published
 
-  - title: "Optimizing operating altitudes of high altitude balloons for navigation"
+  - title: "The stratospheric Goldilocks zone is critical for high-altitude balloon navigation"
     authors:
       - Brown, D.
-      - et al.
+      - Leidich, J.
     journal: "Nature: Communications Earth & Environment"
-    year: 2024
-    status: in-review
+    year: 2025
+    doi: "10.1038/s43247-025-02526-4"
+    status: published
 
-  - title: "Flight Safety of launching a high altitude balloon through airspace"
+  - title: "HARDMath2: A Benchmark for Applied Mathematics Built by Students as Part of a Graduate Class"
     authors:
+      - Roggeveen, J.V.
+      - Wang, E.Y.
+      - "..."
       - Brown, D.
       - et al.
-    journal: Preprint
-    year: 2024
+    journal: arXiv
+    year: 2025
+    doi: "10.48550/arXiv.2505.11774"
     status: preprint
 
 honors:
@@ -137,9 +133,29 @@ honors:
     organization: Harvard University
     year: 2025
 
+  - name: Alex G Booth '30 Fund Fellowship
+    organization: Harvard University
+    year: 2025
+
+  - name: Three Minute Thesis (3MT) Competition Winner
+    organization: Harvard University
+    year: 2025
+
   - name: Roberts Family / Technology Innovation Fellow
     organization: Harvard Business School
     year: 2024
+
+  - name: DRCLAS Summer Research Travel Grant
+    organization: Harvard University
+    year: 2024
+
+  - name: Salata/HUCE Summer Undergraduate Independent Research Fund
+    organization: Harvard University
+    year: 2024
+
+  - name: Harvard College Research Program Fellow
+    organization: Harvard University
+    year: 2023
 
   - name: John Harvard Scholarship Award
     organization: Harvard University
@@ -150,17 +166,24 @@ honors:
     year: 2019
 
 talks:
-  - title: Machine Learning for Space Operations
-    event: Maxar Applied ML Summit
-    date: August 2023
-    description: Presented to over 200 machine learning experts
+  - title: "Atmosys: The Atmospheric Operating System"
+    event: Academic High Altitude Conference
+    date: June 2025
+    description: Poster presentation
+    doi: "10.31274/ahac.20138"
 
 projects:
-  - name: Balloon Navigation Simulator
-    description: Built high-fidelity simulation environment for testing stratospheric balloon navigation algorithms using ERA5 wind data
+  - name: "iTour: Fort Gaines"
+    year: "2019 -- Present"
+    description: Developed tour system for historic civil war site: physical infrastructure coupled with audio-based smartphone app. Not for Profit.
 
-  - name: AutoPilot System
-    description: Developed optimal control-based autopilot for real-time balloon navigation in chaotic atmospheric conditions
+  - name: Star Tracking Telescope Mount
+    year: "2022"
+    description: Astrophotography mount using high precision stepper motors and sensor analysis to rotate DSLR in celestial directions to match the motion of the stars.
+
+  - name: Voice Assistant
+    year: "2019"
+    description: Python-based assistant with speech-to-text, keyword detection filtered into Database for scaling, call-and-response, weather tracking, and name profiling.
 
 skills:
   languages:
@@ -170,6 +193,9 @@ skills:
     - MATLAB
     - Arduino
     - Git
+    - LaTeX
+  aiToolkits:
+    - Superuser of all major modern AI Tools & Frameworks
   software:
     - ArcGIS
     - PyTorch
@@ -185,11 +211,6 @@ skills:
     - Milling
     - Laser Cutting
     - Machine Shop
-  leadership:
-    - Harvard SEDS
-    - Harvard Rocket Propulsion Group Lead
-    - Space Generation Advisory Council
   interests:
-    - Fine Art Photography
-    - Astrophotography
-    - Underwater Photography
+    - Photography (Fine Art, Astrophotography, Underwater)
+    - Space Exploration

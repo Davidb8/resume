@@ -47,21 +47,33 @@
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 
 % Custom commands
+
+% Command for the Company Name (Top level)
+\newcommand{\resumeCompany}[2]{
+    \vspace{4pt}\noindent
+    \begin{tabularx}{\textwidth}{@{}Xr@{}}
+        \textbf{#1} & \textbf{#2} \\
+    \end{tabularx}
+    \vspace{-10pt}
+}
+
+% Command for the Job Title (Second level) - italic only, not bold
+\newcommand{\resumeRole}[2]{
+    \vspace{2pt}\noindent
+    \begin{tabularx}{\textwidth}{@{}Xr@{}}
+        \textit{#1} & \textit{#2} \\
+    \end{tabularx}
+    \vspace{-6pt}
+}
+
+% Standard Subheading (Company + single role)
 \newcommand{\resumeSubheading}[4]{
-    \vspace{4pt}
-    \begin{tabularx}{\textwidth}{Xr}
+    \vspace{4pt}\noindent
+    \begin{tabularx}{\textwidth}{@{}Xr@{}}
         \textbf{#1} & \textbf{#2} \\
         \textit{#3} & \textit{#4} \\
     \end{tabularx}
-    \vspace{-2pt}
-}
-
-\newcommand{\resumePosition}[3]{
-    \vspace{6pt}
-    \hspace{1em}\begin{tabularx}{\dimexpr\textwidth-1em}{Xr}
-        \textit{\textbf{#1}} & \textit{#2 -- #3} \\
-    \end{tabularx}
-    \vspace{-2pt}
+    \vspace{-6pt}
 }
 
 \newcommand{\resumeItem}[1]{
@@ -71,7 +83,7 @@
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 % List settings
-\setlist[itemize]{leftmargin=2em, nosep, topsep=2pt}
+\setlist[itemize]{leftmargin=0.15in, nosep, topsep=2pt}
 
 %-------------------------------------------
 % DOCUMENT START
@@ -107,88 +119,83 @@
 
 \resumeSubheading
     {Harvard University}{Cambridge, MA}
-    {M.S. Applied Mathematics (Aerospace Engineering/Machine Learning)}{Expected May 2025}
+    {M.S. Applied Mathematics}{May 2025}
 
 \vspace{4pt}
 
 \resumeSubheading
     {Harvard University}{Cambridge, MA}
-    {B.A. Applied Mathematics, Secondary in Astrophysics}{Expected May 2025}
-\begin{itemize}
-    \resumeItem{Magna Cum Laude with Highest Honors in Applied Mathematics}
-    \resumeItem{Relevant Coursework: Machine Learning, Optimal Control Theory, Space Systems Engineering, Signal Processing, Fourier Analysis, Differential Equations, Engineering Data Analytics}
-\end{itemize}
+    {B.A. Applied Mathematics, Secondary in Astrophysics}{May 2025}
+    Magna Cum Laude with Highest Honors \\
 
 %----------PROFESSIONAL & RESEARCH EXPERIENCE----------
 \section{Professional \& Research Experience}
 
-\resumeSubheading
-    {Urban Sky}{Denver, CO}
-    {Chief of Staff}{May 2025 -- Present}
-\begin{itemize}
-    \resumeItem{Ensure timely completion of all company goals and objectives}
-    \resumeItem{Continue leadership over balloon navigation research and development}
-\end{itemize}
+% --- URBAN SKY (Multiple Roles) ---
+\resumeCompany{Urban Sky}{Denver, CO}
 
-\resumePosition{Simulations Engineer}{November 2022}{May 2025}
-\begin{itemize}
-    \resumeItem{Conducted scientific studies into trends in wind behavior, historical shifts, and forecasting accuracies}
-    \resumeItem{Managed small team in development of several multimillion-dollar AFWERX/SBIR government contracts}
-    \resumeItem{Developed high fidelity model of balloon system operating in a chaotic and dynamic 3D space}
-    \resumeItem{Leveraged Optimal Control Theory to develop AutoPilot system to intelligently navigate transitions of complex nonlinear dynamic systems in real-time environments}
-    \resumeItem{Started Machine Learning Sector for controlling balloons using classical ML and reinforcement learning}
-    \resumeItem{Leading business development opportunities for humanitarian and sustainable development}
-\end{itemize}
+    \resumeRole{Chief of Staff}{June 2025 -- Present}
+    \begin{itemize}
+        \resumeItem{Ensure timely \& successful completion of all company goals and objectives}
+    \end{itemize}
 
-\resumePosition{Simulations and Modeling Intern}{May 2022}{November 2022}
-\begin{itemize}
-    \resumeItem{Modeled balloon flight behavior by creating custom simulator}
-    \resumeItem{Created tool for analyzing flight viability of any location in the US based on wind and geographical conditions}
-    \resumeItem{Government contracting support (Phase 1 and 2) for proposal development and research}
-\end{itemize}
+    \resumeRole{Simulations Engineer}{November 2022 -- June 2025}
+    \begin{itemize}
+        \resumeItem{Conducted scientific studies into trends in wind behavior, historical shifts, and forecasting accuracies}
+        \resumeItem{Managed small team in development of several multimillion-dollar AFWERX/SBIR government contracts}
+        \resumeItem{Developed high fidelity model of balloon system operating in a chaotic and dynamic 4D space}
+        \resumeItem{Leveraged Optimal Control Theory to develop AutoPilot system to intelligently navigate transitions of complex nonlinear dynamic systems in real-time environments}
+        \resumeItem{Stood up in-house machine learning capacity, initially targeted for controlling balloons using classical ML and reinforcement learning}
+        \resumeItem{Business development research for opportunities \& partnerships for humanitarian and sustainable development}
+    \end{itemize}
 
-\vspace{4pt}
+    \resumeRole{Simulations and Modeling Intern}{May 2022 -- November 2022}
+    \begin{itemize}
+        \resumeItem{Modeled balloon flight behavior by creating custom simulator}
+        \resumeItem{Created tool for analyzing flight viability of any location in the US based on wind and geographical conditions}
+        \resumeItem{Government contracting support (Phase 1 and 2) for proposal development and research}
+    \end{itemize}
 
-\resumeSubheading
-    {Maxar}{Herndon, VA}
-    {Aerospace Engineering Analyst Intern}{June 2023 -- August 2023}
-\begin{itemize}
-    \resumeItem{Simulation and Modeling team tasked with enabling space agents to make intelligent decisions in complex environments}
-    \resumeItem{Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions}
-    \resumeItem{Implemented optimization algorithms to solve complex orbital transfers with up to 60\% reductions in fuel costs}
-    \resumeItem{Leveraged Machine Learning to eliminate costly planning procedures, achieving 98\% faster flight planning}
-\end{itemize}
+% --- MAXAR (Single Role) ---
+\resumeCompany{Maxar}{Herndon, VA}
 
-\vspace{4pt}
+    \resumeRole{Aerospace Engineering Analyst Intern}{June 2023 -- August 2023}
+    \begin{itemize}
+        \resumeItem{Simulation and Modeling to enable space agents to make intelligent decisions in complex environments}
+        \resumeItem{Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions}
+        \resumeItem{Implemented optimization algorithms to solve complex orbital transfers with up to 60\% reductions in fuel costs}
+        \resumeItem{Leveraged Machine Learning to eliminate costly planning procedures, achieving 98\% faster flight planning}
+        \resumeItem{Presented ``Machine Learning for Space Operations'' at Maxar Applied ML Summit to over 200 ML experts}
+    \end{itemize}
 
-\resumeSubheading
-    {Harvard University -- Stratospheric Station Keeping Study}{Cambridge, MA}
-    {Advisor: Professor Marianna Linz}{January 2023 -- Present}
-\begin{itemize}
-    \resumeItem{Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations}
-    \resumeItem{Created algorithm to determine altitude adjustment decisions to keep balloons over a target region}
-    \resumeItem{Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation}
-    \resumeItem{Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia}
-\end{itemize}
+% --- HARVARD RESEARCH (Formatted like Adam's CV) ---
+\resumeCompany{Harvard School of Engineering \& Applied Sciences}{Cambridge, MA}
 
-\vspace{4pt}
+    \resumeRole{Associate Scientist, Linz Group}{June 2025 -- Present}
+    \begin{itemize}
+        \resumeItem{Ongoing partnership to further research \& partnerships between Urban Sky and Research bodies}
+    \end{itemize}
 
-\resumeSubheading
-    {Harvard University -- Imperfect Information via Attention for Learning}{Cambridge, MA}
-    {Advisor: Professor Demba Ba}{May 2024 -- Present}
-\begin{itemize}
-    \resumeItem{Devised framework to differentiate ground truth from imperfect information in machine learning}
-    \resumeItem{Applied framework to balloon navigation to develop state-of-the-art controller}
-    \resumeItem{Implementing model for use on real high-altitude balloons; seeking provisional patent}
-\end{itemize}
+    \resumeRole{Undergraduate Researcher, Linz Group}{January 2023 -- May 2025}
+    \begin{itemize}
+        \resumeItem{Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations}
+        \resumeItem{Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation}
+        \resumeItem{Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia}
+    \end{itemize}
+
+    \resumeRole{Undergraduate Researcher, Ba Group}{May 2024 -- September 2025}
+    \begin{itemize}
+        \resumeItem{Devised framework to differentiate ground truth from imperfect information in machine learning via attention mechanisms}
+        \resumeItem{Applied framework to balloon navigation to develop state-of-the-art controller}
+    \end{itemize}
 
 %----------PUBLICATIONS----------
 \section{Publications}
 
 \begin{itemize}
     \resumeItem{\textbf{Brown, D.}, Linz, M., Leidich, J. ``Seasonal and geographic viability of high altitude balloon navigation.'' \textit{Nature Scientific Reports}, 2024. \href{https://doi.org/10.1038/s41598-024-71445-9}{doi:10.1038/s41598-024-71445-9}}
-    \resumeItem{\textbf{Brown, D.}, et al. ``Optimizing operating altitudes of high altitude balloons for navigation.'' \textit{Nature: Communications Earth \& Environment}, 2024. (In Review)}
-    \resumeItem{\textbf{Brown, D.}, et al. ``Flight Safety of launching a high altitude balloon through airspace.'' Preprint, 2024.}
+    \resumeItem{\textbf{Brown, D.}, Leidich, J. ``The stratospheric Goldilocks zone is critical for high-altitude balloon navigation.'' \textit{Nature: Communications Earth \& Environment}, 2025. \href{https://doi.org/10.1038/s43247-025-02526-4}{doi:10.1038/s43247-025-02526-4}}
+    \resumeItem{Roggeveen, J.V., Wang, E.Y., ..., \textbf{Brown, D.}, et al. ``HARDMath2: A Benchmark for Applied Mathematics Built by Students as Part of a Graduate Class.'' \textit{arXiv}, 2025. \href{https://doi.org/10.48550/arXiv.2505.11774}{arXiv:2505.11774}}
 \end{itemize}
 
 %----------HONORS, AWARDS, AND FELLOWSHIPS----------
@@ -196,7 +203,12 @@
 
 \begin{itemize}
     \resumeItem{\textbf{Thomas T. Hoopes Thesis Award} -- Harvard University, 2025}
+    \resumeItem{\textbf{Alex G Booth '30 Fund Fellowship} -- Harvard University, 2025}
+    \resumeItem{\textbf{Three Minute Thesis (3MT) Competition Winner} -- Harvard University, 2025}
     \resumeItem{\textbf{Roberts Family / Technology Innovation Fellow} -- Harvard Business School, 2024}
+    \resumeItem{\textbf{DRCLAS Summer Research Travel Grant} -- Harvard University, 2024}
+    \resumeItem{\textbf{Salata/HUCE Summer Undergraduate Independent Research Fund} -- Harvard University, 2024}
+    \resumeItem{\textbf{Harvard College Research Program Fellow} -- Harvard University, 2023}
     \resumeItem{\textbf{John Harvard Scholarship Award} -- Harvard University, 2022}
     \resumeItem{\textbf{Eagle Scout} -- Boy Scouts of America, 2019}
 \end{itemize}
@@ -205,26 +217,28 @@
 \section{Talks \& Presentations}
 
 \begin{itemize}
-    \resumeItem{\textbf{Machine Learning for Space Operations} -- Maxar Applied ML Summit, August 2023. Presented to over 200 machine learning experts.}
+    \resumeItem{\textbf{Atmosys: The Atmospheric Operating System} -- Academic High Altitude Conference, June 2025. Poster presentation. \href{https://doi.org/10.31274/ahac.20138}{doi:10.31274/ahac.20138}}
 \end{itemize}
 
 %----------PROJECTS----------
 \section{Projects}
 
 \begin{itemize}
-    \resumeItem{\textbf{Balloon Navigation Simulator} -- Built high-fidelity simulation environment for testing stratospheric balloon navigation algorithms using ERA5 wind data}
-    \resumeItem{\textbf{AutoPilot System} -- Developed optimal control-based autopilot for real-time balloon navigation in chaotic atmospheric conditions}
+    \resumeItem{\textbf{iTour: Fort Gaines} (2019 -- Present) -- Developed tour system for historic civil war site: physical infrastructure coupled with audio-based smartphone app. Not for Profit.}
+    \resumeItem{\textbf{Star Tracking Telescope Mount} (2022) -- Astrophotography mount using high precision stepper motors and sensor analysis to rotate DSLR in celestial directions to match the motion of the stars.}
+    \resumeItem{\textbf{Voice Assistant} (2019) -- Python-based assistant with speech-to-text, keyword detection filtered into Database for scaling, call-and-response, weather tracking, and name profiling.}
 \end{itemize}
 
 %----------SKILLS & INTERESTS----------
 \section{Skills \& Interests}
+\vspace{-2pt}
 
-\begin{tabularx}{\textwidth}{@{}lX@{}}
-    \textbf{Languages:} & Python, C, Java, MATLAB, Arduino, Git \\
-    \textbf{Software:} & ArcGIS, PyTorch, TensorFlow, STK, GMAT, QGIS, CAD, CATIA Cameo \\
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+    \textbf{Languages:} & Python, C, Java, MATLAB, Arduino, Git, LaTeX \\
+    \textbf{AI Toolkits:} & Superuser of all major modern AI Tools \& Frameworks \\
+    \textbf{Software:}  & ArcGIS, PyTorch, TensorFlow, STK, GMAT, QGIS, CAD, CATIA Cameo \\
     \textbf{Technical:} & Microcontrollers, 3D Printing, Milling, Laser Cutting, Machine Shop \\
-    \textbf{Leadership:} & Harvard SEDS, Harvard Rocket Propulsion Group Lead, Space Generation Advisory Council \\
-    \textbf{Interests:} & Fine Art Photography, Astrophotography, Underwater Photography \\
+    \textbf{Interests:} & Photography (Fine Art, Astrophotography, Underwater), Space Exploration \\
 \end{tabularx}
 
 \end{document}
