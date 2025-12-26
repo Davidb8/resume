@@ -1,0 +1,183 @@
+basics:
+  name: David Brown
+  title: Applied Mathematician & Chief of Staff
+  email: dbrown3@college.harvard.edu
+  phone: "251-518-0543"
+  location: Cambridge, MA
+  website: https://www.davidbrown.cc
+  linkedin: https://linkedin.com/in/davidcalebbrown
+  github: https://github.com/davidbrown
+  summary: |
+    I develop intelligent navigation systems and mathematical models for high-altitude balloons and aerospace applications, combining theoretical mathematics with practical engineering solutions. Currently serving as Chief of Staff at Urban Sky while completing dual degrees at Harvard.
+
+education:
+  - institution: Harvard University
+    location: Cambridge, MA
+    degree: M.S.
+    field: Applied Mathematics
+    secondaryField: Aerospace Engineering/Machine Learning
+    graduation: May 2025
+    gpa: 3.945
+    majorGpa: 4.0
+    honors:
+      - Magna Cum Laude with Highest Honors in Applied Mathematics
+      - HBS Fellowship (Roberts Family / Technology Innovation Fellow)
+    awards:
+      - name: John Harvard Scholarship Award
+        year: 2022
+      - name: Thomas T. Hoopes Thesis Award
+        year: 2025
+    coursework:
+      - Machine Learning
+      - Linear Algebra
+      - Fourier Analysis
+      - Differential Equations
+      - Mechanics
+      - Relativity
+      - Electromagnetism
+      - Astrophysics
+      - Engineering Data Analytics
+      - Optimal Control Theory
+      - Space Systems Engineering
+      - Space Neuroscience
+      - Signal Processing and Communications
+      - Digital Fabrications
+
+  - institution: Harvard University
+    location: Cambridge, MA
+    degree: B.A.
+    field: Applied Mathematics
+    secondaryField: Aerospace Engineering with Secondary in Astrophysics
+    graduation: May 2025
+    gpa: 3.945
+    majorGpa: 4.0
+
+experience:
+  - company: Urban Sky
+    location: Denver, CO
+    positions:
+      - title: Chief of Staff
+        start: May 2025
+        current: true
+        highlights:
+          - Ensure timely completion of all company goals and objectives
+          - Continue leadership over balloon navigation research and development
+
+      - title: Simulations Engineer
+        start: November 2022
+        end: May 2025
+        highlights:
+          - Conducted scientific studies into trends in wind behavior, historical shifts, and forecasting accuracies
+          - Managed small team in development of several multimillion-dollar AFWERX/SBIR government contracts
+          - Developed high fidelity model of balloon system operating in a chaotic and dynamic 3D space
+          - Leveraged Optimal Control Theory to develop AutoPilot system to intelligently navigate transitions of complex nonlinear dynamic systems in real-time environments
+          - Started Machine Learning Sector for controlling balloons using classical ML and reinforcement learning
+          - Leading business development opportunities for humanitarian and sustainable development
+
+      - title: Simulations and Modeling Intern
+        start: May 2022
+        end: November 2022
+        highlights:
+          - Modeled balloon flight behavior by creating custom simulator
+          - Created tool for analyzing flight viability of any location in the US based on wind and geographical conditions
+          - Government contracting support (Phase 1 and 2) for proposal development and research
+
+  - company: Maxar
+    location: Herndon, VA
+    positions:
+      - title: Aerospace Engineering Analyst Intern
+        start: June 2023
+        end: August 2023
+        highlights:
+          - Simulation and Modeling team tasked with enabling space agents to make intelligent decisions in complex environments
+          - Researched Cis-Lunar and N-body orbits and transfers
+          - Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions
+          - Implemented optimization algorithms to solve complex orbital transfers with up to 60% reductions in fuel costs
+          - Leveraged Machine Learning to eliminate costly planning procedures, achieving 98% faster flight planning
+          - Presented work to over 200 Applied Machine Learning experts
+
+research:
+  - title: Stratospheric Station Keeping Study
+    institution: Harvard University
+    advisor: Professor Marianna Linz
+    location: Cambridge, MA
+    start: January 2023
+    current: true
+    highlights:
+      - Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations
+      - Created algorithm to determine altitude adjustment decisions to keep balloons over a target region
+      - Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation
+      - Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia
+
+  - title: Incorporating Imperfect Information via Attention for Learning
+    institution: Harvard University
+    advisor: Professor Demba Ba
+    location: Cambridge, MA
+    start: May 2024
+    current: true
+    highlights:
+      - Devised framework to differentiate ground truth from imperfect information in machine learning
+      - Applied framework to balloon navigation to develop state-of-the-art controller
+      - Implementing model for use on real high-altitude balloons
+      - Seeking provisional patent
+
+publications:
+  - title: "Seasonal and geographic viability of high altitude balloon navigation"
+    authors:
+      - Brown, D.
+      - Linz, M.
+      - Leidich, J.
+    journal: Nature Scientific Reports
+    year: 2024
+    doi: "10.1038/s41598-024-71445-9"
+    status: published
+
+  - title: "Optimizing operating altitudes of high altitude balloons for navigation"
+    authors:
+      - Brown, D.
+      - et al.
+    journal: "Nature: Communications Earth & Environment"
+    year: 2024
+    status: in-review
+
+  - title: "Flight Safety of launching a high altitude balloon through airspace"
+    authors:
+      - Brown, D.
+      - et al.
+    journal: Preprint
+    year: 2024
+    status: preprint
+
+skills:
+  languages:
+    - Python
+    - C
+    - Java
+    - MATLAB
+    - Arduino
+    - Git
+  software:
+    - ArcGIS (Geospatial Processing)
+    - PyTorch
+    - TensorFlow
+    - STK
+    - GMAT
+    - QGIS
+    - CAD
+    - CATIA Cameo
+  technical:
+    - Microcontrollers
+    - 3D Printing
+    - Milling
+    - Laser Cutting
+    - Machine Shop
+
+activities:
+  - Harvard Students for the Exploration and Development of Space
+  - Harvard Rocket Propulsion Group Lead
+  - Harvard Space Law Society
+  - Space Generation Advisory Council
+  - Student Astronomers at Harvard-Radcliffe
+  - Fine Art Photography, Astrophotography, Underwater Photography
+  - Harvard Peer Advising Fellow
+  - Eagle Scout (2019)
