@@ -57,11 +57,11 @@
 }
 
 \newcommand{\resumePosition}[3]{
-    \vspace{2pt}
-    \begin{tabularx}{\textwidth}{Xr}
-        \textbf{#1} & #2 -- #3 \\
+    \vspace{6pt}
+    \hspace{1em}\begin{tabularx}{\dimexpr\textwidth-1em}{Xr}
+        \textit{\textbf{#1}} & \textit{#2 -- #3} \\
     \end{tabularx}
-    \vspace{-4pt}
+    \vspace{-2pt}
 }
 
 \newcommand{\resumeItem}[1]{
@@ -71,7 +71,7 @@
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 % List settings
-\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[itemize]{leftmargin=2em, nosep, topsep=2pt}
 
 %-------------------------------------------
 % DOCUMENT START
