@@ -15,25 +15,8 @@ education:
     field: Applied Mathematics
     secondaryField: Aerospace Engineering/Machine Learning
     graduation: May 2025
-    gpa: 3.945
-    majorGpa: 4.0
-    honors:
-      - Magna Cum Laude with Highest Honors in Applied Mathematics
-    coursework:
-      - Machine Learning
-      - Linear Algebra
-      - Fourier Analysis
-      - Differential Equations
-      - Mechanics
-      - Relativity
-      - Electromagnetism
-      - Astrophysics
-      - Engineering Data Analytics
-      - Optimal Control Theory
-      - Space Systems Engineering
-      - Space Neuroscience
-      - Signal Processing and Communications
-      - Digital Fabrications
+    gpa: 3.875
+    showGpa: false
 
   - institution: Harvard University
     location: Cambridge, MA
@@ -42,7 +25,17 @@ education:
     secondaryField: Secondary in Astrophysics
     graduation: May 2025
     gpa: 3.945
-    majorGpa: 4.0
+    showGpa: false
+    honors:
+      - Magna Cum Laude with Highest Honors in Applied Mathematics
+    coursework:
+      - Machine Learning
+      - Optimal Control Theory
+      - Space Systems Engineering
+      - Signal Processing
+      - Fourier Analysis
+      - Differential Equations
+      - Engineering Data Analytics
 
 experience:
   - company: Urban Sky
