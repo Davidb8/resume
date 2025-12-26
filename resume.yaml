@@ -63,7 +63,7 @@ experience:
           - Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions
           - Implemented optimization algorithms to solve complex orbital transfers with up to 60% reductions in fuel costs
           - Leveraged Machine Learning to eliminate costly planning procedures, achieving 98% faster flight planning
-          - Presented "Machine Learning for Space Operations" at Maxar Applied ML Summit to over 200 ML experts
+          - Presented Presented work to over 200 ML experts
 
   - company: Harvard School of Engineering & Applied Sciences
     location: Cambridge, MA
@@ -166,7 +166,7 @@ talks:
 
 projects:
   - name: "iTour: Fort Gaines"
-    year: "2019 -- Present"
+    year: "2019 — Present"
     description: "Developed tour system for historic civil war site: physical infrastructure coupled with audio-based smartphone app. Not for Profit."
 
   - name: Star Tracking Telescope Mount
