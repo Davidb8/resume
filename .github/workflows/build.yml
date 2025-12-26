@@ -38,3 +38,28 @@ jobs:
           git add resume.pdf
           git diff --staged --quiet || git commit -m "Build resume.pdf [skip ci]"
           git push
+
+  update-portfolio:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout portfolio-website
+        uses: actions/checkout@v4
+        with:
+          repository: Davidb8/portfolio-website
+          token: ${{ secrets.PORTFOLIO_PAT }}
+          submodules: true
+
+      - name: Update resume submodule
+        run: |
+          cd resume
+          git fetch origin main
+          git checkout origin/main
+          cd ..
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add resume
+          git diff --staged --quiet || git commit -m "Update resume submodule [auto]"
+          git push
