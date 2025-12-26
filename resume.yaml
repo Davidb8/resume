@@ -14,7 +14,6 @@ education:
     degree: M.S.
     field: Applied Mathematics
     graduation: May 2025
-    showGpa: false
 
   - institution: Harvard University
     location: Cambridge, MA
@@ -22,7 +21,6 @@ education:
     field: Applied Mathematics
     secondaryField: Secondary in Astrophysics
     graduation: May 2025
-    showGpa: false
     honors:
       - Magna Cum Laude with Highest Honors
 
@@ -120,7 +118,6 @@ publications:
     authors:
       - Roggeveen, J.V.
       - Wang, E.Y.
-      - "..."
       - Brown, D.
       - et al.
     journal: arXiv
@@ -169,21 +166,20 @@ talks:
   - title: "Atmosys: The Atmospheric Operating System"
     event: Academic High Altitude Conference
     date: June 2025
-    description: Poster presentation
     doi: "10.31274/ahac.20138"
 
 projects:
   - name: "iTour: Fort Gaines"
     year: "2019 -- Present"
-    description: Developed tour system for historic civil war site: physical infrastructure coupled with audio-based smartphone app. Not for Profit.
+    description: "Developed tour system for historic civil war site: physical infrastructure coupled with audio-based smartphone app. Not for Profit."
 
   - name: Star Tracking Telescope Mount
     year: "2022"
-    description: Astrophotography mount using high precision stepper motors and sensor analysis to rotate DSLR in celestial directions to match the motion of the stars.
+    description: "Astrophotography mount using high precision stepper motors and sensor analysis to rotate DSLR in celestial directions to match the motion of the stars."
 
   - name: Voice Assistant
     year: "2019"
-    description: Python-based assistant with speech-to-text, keyword detection filtered into Database for scaling, call-and-response, weather tracking, and name profiling.
+    description: "Python-based assistant with speech-to-text, keyword detection filtered into Database for scaling, call-and-response, weather tracking, and name profiling."
 
 skills:
   languages:
@@ -212,5 +208,5 @@ skills:
     - Laser Cutting
     - Machine Shop
   interests:
-    - Photography (Fine Art, Astrophotography, Underwater)
+    - "Photography (Fine Art, Astrophotography, Underwater)"
     - Space Exploration
