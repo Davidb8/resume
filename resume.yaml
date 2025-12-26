@@ -1,6 +1,5 @@
 basics:
   name: David Brown
-  title: Applied Mathematician & Chief of Staff
   email: david@davidcalebbrown.com
   phone: "251-518-0543"
   location: Denver, CO
@@ -66,33 +65,29 @@ experience:
           - Leveraged Machine Learning to eliminate costly planning procedures, achieving 98% faster flight planning
           - Presented "Machine Learning for Space Operations" at Maxar Applied ML Summit to over 200 ML experts
 
-research:
-  - title: Associate Scientist, Linz Group
-    institution: Harvard School of Engineering & Applied Sciences
+  - company: Harvard School of Engineering & Applied Sciences
     location: Cambridge, MA
-    start: June 2025
-    current: true
-    highlights:
-      - Ongoing partnership to further research & partnerships between Urban Sky and Research bodies
+    positions:
+      - title: Associate Scientist, Linz Group
+        start: June 2025
+        current: true
+        highlights:
+          - Ongoing partnership to further research & partnerships between Urban Sky and Research bodies
 
-  - title: Undergraduate Researcher, Linz Group
-    institution: Harvard School of Engineering & Applied Sciences
-    location: Cambridge, MA
-    start: January 2023
-    end: May 2025
-    highlights:
-      - Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations
-      - Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation
-      - Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia
+      - title: Undergraduate Researcher, Linz Group
+        start: January 2023
+        end: May 2025
+        highlights:
+          - Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations
+          - Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation
+          - Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia
 
-  - title: Undergraduate Researcher, Ba Group
-    institution: Harvard School of Engineering & Applied Sciences
-    location: Cambridge, MA
-    start: May 2024
-    end: September 2025
-    highlights:
-      - Devised framework to differentiate ground truth from imperfect information in machine learning via attention mechanisms
-      - Applied framework to balloon navigation to develop state-of-the-art controller
+      - title: Undergraduate Researcher, Ba Group
+        start: May 2024
+        end: September 2025
+        highlights:
+          - Devised framework to differentiate ground truth from imperfect information in machine learning via attention mechanisms
+          - Applied framework to balloon navigation to develop state-of-the-art controller
 
 publications:
   - title: "Seasonal and geographic viability of high altitude balloon navigation"
@@ -118,6 +113,7 @@ publications:
     authors:
       - Roggeveen, J.V.
       - Wang, E.Y.
+      - "..."
       - Brown, D.
       - et al.
     journal: arXiv
