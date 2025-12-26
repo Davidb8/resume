@@ -7,8 +7,6 @@ basics:
   website: https://davidcalebbrown.com
   linkedin: https://linkedin.com/in/davidcalebbrown
   github: https://github.com/Davidb8
-  summary: |
-    I develop intelligent navigation systems and mathematical models for high-altitude balloons and aerospace applications, combining theoretical mathematics with practical engineering solutions. Currently serving as Chief of Staff at Urban Sky while completing dual degrees at Harvard.
 
 education:
   - institution: Harvard University
@@ -21,12 +19,6 @@ education:
     majorGpa: 4.0
     honors:
       - Magna Cum Laude with Highest Honors in Applied Mathematics
-      - HBS Fellowship (Roberts Family / Technology Innovation Fellow)
-    awards:
-      - name: John Harvard Scholarship Award
-        year: 2022
-      - name: Thomas T. Hoopes Thesis Award
-        year: 2025
     coursework:
       - Machine Learning
       - Linear Algebra
@@ -47,7 +39,7 @@ education:
     location: Cambridge, MA
     degree: B.A.
     field: Applied Mathematics
-    secondaryField: Aerospace Engineering with Secondary in Astrophysics
+    secondaryField: Secondary in Astrophysics
     graduation: May 2025
     gpa: 3.945
     majorGpa: 4.0
@@ -94,7 +86,6 @@ experience:
           - Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions
           - Implemented optimization algorithms to solve complex orbital transfers with up to 60% reductions in fuel costs
           - Leveraged Machine Learning to eliminate costly planning procedures, achieving 98% faster flight planning
-          - Presented work to over 200 Applied Machine Learning experts
 
 research:
   - title: Stratospheric Station Keeping Study
@@ -148,6 +139,36 @@ publications:
     year: 2024
     status: preprint
 
+honors:
+  - name: Thomas T. Hoopes Thesis Award
+    organization: Harvard University
+    year: 2025
+
+  - name: Roberts Family / Technology Innovation Fellow
+    organization: Harvard Business School
+    year: 2024
+
+  - name: John Harvard Scholarship Award
+    organization: Harvard University
+    year: 2022
+
+  - name: Eagle Scout
+    organization: Boy Scouts of America
+    year: 2019
+
+talks:
+  - title: Machine Learning for Space Operations
+    event: Maxar Applied ML Summit
+    date: August 2023
+    description: Presented to over 200 machine learning experts
+
+projects:
+  - name: Balloon Navigation Simulator
+    description: Built high-fidelity simulation environment for testing stratospheric balloon navigation algorithms using ERA5 wind data
+
+  - name: AutoPilot System
+    description: Developed optimal control-based autopilot for real-time balloon navigation in chaotic atmospheric conditions
+
 skills:
   languages:
     - Python
@@ -157,7 +178,7 @@ skills:
     - Arduino
     - Git
   software:
-    - ArcGIS (Geospatial Processing)
+    - ArcGIS
     - PyTorch
     - TensorFlow
     - STK
@@ -171,13 +192,11 @@ skills:
     - Milling
     - Laser Cutting
     - Machine Shop
-
-activities:
-  - Harvard Students for the Exploration and Development of Space
-  - Harvard Rocket Propulsion Group Lead
-  - Harvard Space Law Society
-  - Space Generation Advisory Council
-  - Student Astronomers at Harvard-Radcliffe
-  - Fine Art Photography, Astrophotography, Underwater Photography
-  - Harvard Peer Advising Fellow
-  - Eagle Scout (2019)
+  leadership:
+    - Harvard SEDS
+    - Harvard Rocket Propulsion Group Lead
+    - Space Generation Advisory Council
+  interests:
+    - Fine Art Photography
+    - Astrophotography
+    - Underwater Photography
