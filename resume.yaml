@@ -169,6 +169,10 @@ projects:
     year: "2019 — Present"
     description: "Developed tour system for historic civil war site: physical infrastructure coupled with audio-based smartphone app. Not for Profit."
 
+  - name: Bartending Robot
+    year: "2023"
+    description: "Bartending assistant able to craft made-to-order drinks with NFC-based ordering and queueing system."
+
   - name: Star Tracking Telescope Mount
     year: "2022"
     description: "Astrophotography mount using high precision stepper motors and sensor analysis to rotate DSLR in celestial directions to match the motion of the stars."
