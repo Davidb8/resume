@@ -1,0 +1,25 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Note: resume.pdf is NOT ignored - we want it in the repo

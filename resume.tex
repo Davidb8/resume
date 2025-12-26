@@ -1,0 +1,231 @@
+%-------------------------
+% Resume in LaTeX
+% Author: David Brown
+% License: MIT
+%-------------------------
+
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{multicol}
+
+% Colors
+\definecolor{primary}{RGB}{45, 55, 72}
+\definecolor{accent}{RGB}{102, 51, 153}
+\definecolor{lightgray}{RGB}{128, 128, 128}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+    pdfborder={0 0 0}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}
+    {\Large\bfseries\color{primary}}
+    {}
+    {0em}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+    \vspace{4pt}
+    \begin{tabularx}{\textwidth}{Xr}
+        \textbf{#1} & \textbf{#2} \\
+        \textit{#3} & \textit{#4} \\
+    \end{tabularx}
+    \vspace{-2pt}
+}
+
+\newcommand{\resumePosition}[3]{
+    \vspace{2pt}
+    \begin{tabularx}{\textwidth}{Xr}
+        \textbf{#1} & #2 -- #3 \\
+    \end{tabularx}
+    \vspace{-4pt}
+}
+
+\newcommand{\resumeItem}[1]{
+    \item\small{#1}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+% List settings
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+
+%-------------------------------------------
+% DOCUMENT START
+%-------------------------------------------
+\begin{document}
+
+%----------HEADER----------
+\begin{center}
+    {\Huge\bfseries\color{primary} David Brown}
+
+    \vspace{6pt}
+
+    {\large Applied Mathematician \& Chief of Staff}
+
+    \vspace{8pt}
+
+    \small
+    \faIcon{envelope} \href{mailto:dbrown3@college.harvard.edu}{dbrown3@college.harvard.edu} \quad
+    \faIcon{phone} 251-518-0543 \quad
+    \faIcon{map-marker-alt} Cambridge, MA
+
+    \vspace{2pt}
+
+    \faIcon{globe} \href{https://www.davidbrown.cc}{davidbrown.cc} \quad
+    \faIcon{linkedin} \href{https://linkedin.com/in/davidcalebbrown}{linkedin.com/in/davidcalebbrown} \quad
+    \faIcon{github} \href{https://github.com/davidbrown}{github.com/davidbrown}
+\end{center}
+
+\vspace{-8pt}
+
+%----------SUMMARY----------
+\section{Summary}
+I develop intelligent navigation systems and mathematical models for high-altitude balloons and aerospace applications, combining theoretical mathematics with practical engineering solutions. Currently serving as Chief of Staff at Urban Sky while completing dual degrees at Harvard.
+
+%----------EDUCATION----------
+\section{Education}
+
+\resumeSubheading
+    {Harvard University}{Cambridge, MA}
+    {M.S. Applied Mathematics (Aerospace Engineering/Machine Learning)}{Expected May 2025}
+\begin{itemize}
+    \resumeItem{GPA: 3.945/4.0 (Major GPA: 4.0)}
+    \resumeItem{Honors: Magna Cum Laude with Highest Honors in Applied Mathematics}
+    \resumeItem{HBS Fellowship: Roberts Family / Technology Innovation Fellow}
+    \resumeItem{Awards: John Harvard Scholarship Award (2022), Thomas T. Hoopes Thesis Award (2025)}
+\end{itemize}
+
+\vspace{4pt}
+
+\resumeSubheading
+    {Harvard University}{Cambridge, MA}
+    {B.A. Applied Mathematics, Secondary in Astrophysics}{Expected May 2025}
+\begin{itemize}
+    \resumeItem{Relevant Coursework: Machine Learning, Optimal Control Theory, Space Systems Engineering, Signal Processing, Fourier Analysis, Differential Equations, Engineering Data Analytics}
+\end{itemize}
+
+%----------EXPERIENCE----------
+\section{Experience}
+
+\resumeSubheading
+    {Urban Sky}{Denver, CO}
+    {Chief of Staff}{May 2025 -- Present}
+\begin{itemize}
+    \resumeItem{Ensure timely completion of all company goals and objectives}
+    \resumeItem{Continue leadership over balloon navigation research and development}
+\end{itemize}
+
+\resumePosition{Simulations Engineer}{November 2022}{May 2025}
+\begin{itemize}
+    \resumeItem{Conducted scientific studies into trends in wind behavior, historical shifts, and forecasting accuracies}
+    \resumeItem{Managed small team in development of several multimillion-dollar AFWERX/SBIR government contracts}
+    \resumeItem{Developed high fidelity model of balloon system operating in a chaotic and dynamic 3D space}
+    \resumeItem{Leveraged Optimal Control Theory to develop AutoPilot system to intelligently navigate transitions of complex nonlinear dynamic systems in real-time environments}
+    \resumeItem{Started Machine Learning Sector for controlling balloons using classical ML and reinforcement learning}
+    \resumeItem{Leading business development opportunities for humanitarian and sustainable development}
+\end{itemize}
+
+\resumePosition{Simulations and Modeling Intern}{May 2022}{November 2022}
+\begin{itemize}
+    \resumeItem{Modeled balloon flight behavior by creating custom simulator}
+    \resumeItem{Created tool for analyzing flight viability of any location in the US based on wind and geographical conditions}
+    \resumeItem{Government contracting support (Phase 1 and 2) for proposal development and research}
+\end{itemize}
+
+\vspace{4pt}
+
+\resumeSubheading
+    {Maxar}{Herndon, VA}
+    {Aerospace Engineering Analyst Intern}{June 2023 -- August 2023}
+\begin{itemize}
+    \resumeItem{Simulation and Modeling team tasked with enabling space agents to make intelligent decisions in complex environments}
+    \resumeItem{Developed tools for fully customizable space-based simulator including high fidelity multibody transfer, satellite-based observation and communication, and Kalman Filter based predictions}
+    \resumeItem{Implemented optimization algorithms to solve complex orbital transfers with up to 60\% reductions in fuel costs}
+    \resumeItem{Leveraged Machine Learning to eliminate costly planning procedures, achieving 98\% faster flight planning}
+    \resumeItem{Presented work to over 200 Applied Machine Learning experts}
+\end{itemize}
+
+%----------RESEARCH----------
+\section{Research}
+
+\resumeSubheading
+    {Stratospheric Station Keeping Study}{Harvard University}
+    {Advisor: Professor Marianna Linz}{January 2023 -- Present}
+\begin{itemize}
+    \resumeItem{Collaborated with Urban Sky to model general zero-pressure balloon behavior over extended flight durations}
+    \resumeItem{Created algorithm to determine altitude adjustment decisions to keep balloons over a target region}
+    \resumeItem{Mass simulation using ERA5 Wind Data to identify major trends behind global viability of navigation}
+    \resumeItem{Investigating applications to deforestation monitoring in Amazon Rainforest and wildfire prevention in Australia}
+\end{itemize}
+
+\vspace{4pt}
+
+\resumeSubheading
+    {Incorporating Imperfect Information via Attention for Learning}{Harvard University}
+    {Advisor: Professor Demba Ba}{May 2024 -- Present}
+\begin{itemize}
+    \resumeItem{Devised framework to differentiate ground truth from imperfect information in machine learning}
+    \resumeItem{Applied framework to balloon navigation to develop state-of-the-art controller}
+    \resumeItem{Implementing model for use on real high-altitude balloons; seeking provisional patent}
+\end{itemize}
+
+%----------PUBLICATIONS----------
+\section{Publications}
+
+\begin{itemize}
+    \resumeItem{\textbf{Brown, D.}, Linz, M., Leidich, J. ``Seasonal and geographic viability of high altitude balloon navigation.'' \textit{Nature Scientific Reports}, 2024. \href{https://doi.org/10.1038/s41598-024-71445-9}{doi:10.1038/s41598-024-71445-9}}
+    \resumeItem{\textbf{Brown, D.}, et al. ``Optimizing operating altitudes of high altitude balloons for navigation.'' \textit{Nature: Communications Earth \& Environment}, 2024. (In Review)}
+    \resumeItem{\textbf{Brown, D.}, et al. ``Flight Safety of launching a high altitude balloon through airspace.'' Preprint, 2024.}
+\end{itemize}
+
+%----------SKILLS----------
+\section{Skills}
+
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+    \textbf{Languages:} & Python, C, Java, MATLAB, Arduino, Git \\
+    \textbf{Software:} & ArcGIS, PyTorch, TensorFlow, STK, GMAT, QGIS, CAD, CATIA Cameo \\
+    \textbf{Technical:} & Microcontrollers, 3D Printing, Milling, Laser Cutting, Machine Shop \\
+\end{tabularx}
+
+%----------ACTIVITIES----------
+\section{Activities \& Leadership}
+
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*]
+    \small
+    \item Harvard Students for Exploration and Development of Space
+    \item Harvard Rocket Propulsion Group Lead
+    \item Harvard Space Law Society
+    \item Space Generation Advisory Council
+    \item Student Astronomers at Harvard-Radcliffe
+    \item Harvard Peer Advising Fellow
+    \item Fine Art, Astro, \& Underwater Photography
+    \item Eagle Scout (2019)
+\end{itemize}
+\end{multicols}
+
+\end{document}
