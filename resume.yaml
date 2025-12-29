@@ -163,6 +163,19 @@ talks:
     event: Academic High Altitude Conference
     date: June 2025
     doi: "10.31274/ahac.20138"
+    type: presentation
+
+  - title: "High-altitude balloons: steering the future of navigation"
+    event: ECMWF Newsletter No. 182
+    date: Winter 2024/25
+    url: "https://www.ecmwf.int/en/newsletter/182/news/high-altitude-balloons-steering-future-navigation"
+    type: feature
+
+  - title: "The stratospheric Goldilocks zone is critical for high-altitude balloon navigation"
+    event: "Nature: Behind the Paper"
+    date: July 2025
+    url: "https://communities.springernature.com/posts/the-stratospheric-goldilocks-zone-is-critical-for-high-altitude-balloon-navigation"
+    type: blog
 
 projects:
   - name: "iTour: Fort Gaines"
