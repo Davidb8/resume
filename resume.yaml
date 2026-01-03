@@ -122,10 +122,6 @@ publications:
     status: preprint
 
 honors:
-  - name: "HBS Startup Bootcamp - First Place (Theseus AI)"
-    organization: Harvard Business School
-    year: 2025
-
   - name: Thomas T. Hoopes Thesis Award
     organization: Harvard University
     year: 2025
@@ -136,6 +132,10 @@ honors:
 
   - name: Three Minute Thesis (3MT) Competition Winner
     organization: Harvard University
+    year: 2025
+
+  - name: "HBS Startup Bootcamp - First Place (Theseus AI)"
+    organization: Harvard Business School
     year: 2025
 
   - name: Roberts Family / Technology Innovation Fellow
